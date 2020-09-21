@@ -62,7 +62,7 @@ namespace coreproj
             {
                 new Course() {Id=1,Name="AZ-204",rating=4.5},
                 new Course() {Id=2,Name="AZ-104",rating=4.2},
-                new Course() {Id=3,Name="AZ-300",rating=4.3}
+                new Course() {Id=3,Name="AZ-300",rating=4.4}
             };
             int count = 3;
             cache.Set("dtset", courseobj);
